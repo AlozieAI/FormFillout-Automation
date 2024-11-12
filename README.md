@@ -3,6 +3,7 @@
 This project is a web automation tool built in Python using Flask to automate the process of filling out and submitting service request forms for customers during a phone call. The automation script is designed to be triggered through function calls within VAPI, which powers an AI Phone Agent, ensuring efficient and accurate form submissions.
 
 **Features**
+
 Automated Form Submission: Automatically fills out and submits a service request form on behalf of customers.
 
 Dynamic Token Extraction: Extracts and uses tokens such as form_build_id and honeypot_time to successfully submit the form.
