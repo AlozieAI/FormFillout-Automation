@@ -15,6 +15,7 @@ Error Handling: Provides meaningful error messages and status codes in case of i
 Request Validation: Checks for missing required fields and returns appropriate error messages.
 
 **How It Works**
+
 Receive Data: The API receives a JSON payload with customer information (e.g., name, phone number, email) from the VAPI AI Phone Agent.
 
 Fetch Form Tokens: The script performs a GET request to the form page to extract required tokens like form_build_id and honeypot_time using BeautifulSoup.
